@@ -1,0 +1,14 @@
+.page-header {
+  height: 74px;
+  border-bottom: 2px solid silver;
+  box-sizing: border-box;
+  padding: 25px;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+
+  span {
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+}

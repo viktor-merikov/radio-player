@@ -1,0 +1,28 @@
+<div class="main-page-container">
+    <app-header></app-header>
+    <div class="resizable-container">
+        <as-split unit="pixel" [restrictMove]="false" [direction]="'vertical'" [gutterSize]="2">
+
+            <as-split-area [size]="1000" [minSize]="100" [maxSize]="1000">
+                <div class="player-body">
+                    <as-split [unit]="'percent'" [restrictMove]="false" [direction]="'horizontal'" [gutterSize]="2">
+
+                        <as-split-area [size]="50" [minSize]="10" [maxSize]="90">
+                            <app-video-box></app-video-box>
+                        </as-split-area>
+
+                        <as-split-area [size]="50" [minSize]="10" [maxSize]="90">
+                            <app-playlist></app-playlist>
+                        </as-split-area>
+
+                    </as-split>
+                </div>
+            </as-split-area>
+
+            <as-split-area [size]="50" [minSize]="50" [maxSize]="500">
+                <app-song-text></app-song-text>
+            </as-split-area>
+
+        </as-split>
+    </div>
+</div>

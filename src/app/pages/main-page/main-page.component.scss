@@ -1,0 +1,15 @@
+.main-page-container {
+  width: 100%;
+  height: 100%;
+
+  .player-body {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.resizable-container {
+  width: 100%;
+  height: calc(100% - 74px);
+  background-color: yellow;
+}

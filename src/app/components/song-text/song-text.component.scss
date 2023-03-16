@@ -1,0 +1,25 @@
+.footer-panel {
+  height: 50px;
+  background-color: lightsteelblue;
+  border: 1px solid silver;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+
+  span {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+}
+
+.song-text-body {
+  height: calc(100% - 50px);
+  overflow: auto;
+  padding: 0 20px;
+}
+
+:host {
+  min-height: 50px;
+  overflow: hidden;
+}
